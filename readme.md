@@ -4,12 +4,17 @@
 
 Features:
 - Symmetric modifiers (CMD/Super, Alt/Opt, Ctrl, Shift)
-- Various modes, can be switched (using Adjust layer and the selected one is stored in EEPROM.)
+- Modular support for encoders and oleds, easily enabled/disabled.
+- Various modes, can be switched (using Lwr/Rse layers and the selected one is stored in EEPROM.)
 - The OLED on master half shows selected mode and caps lock state and is rotated.
 - Left encoder controls volume up/down/mute. Right encoder PGUP/PGDOWN.
 - Toggle gaming layer with more open binds and layer keys function as regular keys.
 - Backlight LED support
-- QMK storage optimizations for the ProMicro CFeatures:
+- QMK storage optimizations for the ProMicro-C
+
+In Dev:
+- RGB matrix support for better per-key+backlight customization and sync.
+- Storage optimized OLED animations for non-primary half.
 
 #### Keymap
 
